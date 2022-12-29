@@ -7,23 +7,31 @@ Currently supports:
 
 ## To install
 1. Clone repo
-'''
+
+```
 git clone https://github.com/chnihy/flask_file_converter.git
-'''
+```
+
 2. Cd to repo
-'''
+
+```
 cd flask_file_converter
-'''
+```
+
 3. Install requirements
-'''
+
+```
 pip install -r requirements.txt
-'''
-4. Launch
-'''
+```
+
+4. Launch app.py
+
+```
 python3 app.py
-'''
-return output:
-'''
+```
+
+If successful, will return this output:
+```
  * Serving Flask app 'app' (lazy loading)
  * Environment: production
    WARNING: This is a development server. Do not use it in a production deployment.
@@ -33,6 +41,6 @@ return output:
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 341-274-134
-'''
+```
 
-5. Navigate to http://127.0.0.1:5000/ in browser
+5. Navigate to http://127.0.0.1:5000/ in your browser
