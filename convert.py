@@ -12,7 +12,7 @@ def convert_file(input_format, output_format, file_contents):
 			data = xmltodict.parse(file_contents)
 			output = yaml.dump(data, default_flow_style=False)
 		
-		if output_format == 'csv':
+		#if output_format == 'csv':
 			
 	
 	except:
